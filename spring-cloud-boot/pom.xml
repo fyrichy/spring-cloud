@@ -22,4 +22,15 @@
 		    <version>1.1.6</version>
 		</dependency>
   </dependencies>
+  
+  <build>
+  		<plugins>
+  			<plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executable>true</executable>
+            </plugin>
+  		</plugins>
+  		
+  </build>
 </project>
