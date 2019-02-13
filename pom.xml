@@ -11,5 +11,6 @@
   </parent>
   <modules>
   	<module>spring-cloud-boot</module>
+  	<module>spring-cloud-eureka</module>
   </modules>
 </project>

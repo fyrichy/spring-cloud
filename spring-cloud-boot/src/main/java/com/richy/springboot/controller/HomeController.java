@@ -4,15 +4,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @descrp：定义HomeController
+ * @descrp：HomeController
  * @author：FyRichy
- * @time：2019年2月13日上午9:16:58
+ * @time：2019年2月13日上午10:35:15
  */
 @RestController
 public class HomeController {
 
 	@RequestMapping("/hello")
 	public String hello() {
-		return "The Example SpringBoot";
+		return "Spring-Cloud-Boot";
 	}
 }

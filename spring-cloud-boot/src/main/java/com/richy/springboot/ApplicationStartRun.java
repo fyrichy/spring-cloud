@@ -6,18 +6,17 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @descrp：项目启动类
+ * @descrp：SpringBoot启动类
  * @author：FyRichy
- * @time：2019年2月13日上午9:14:24
+ * @time：2019年2月13日上午10:36:53
  */
 @SpringBootApplication
 public class ApplicationStartRun {
 
-	//日志类
 	private final static Logger logger = LoggerFactory.getLogger(ApplicationStartRun.class);
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ApplicationStartRun.class, args);
-		logger.info("The Example Application Run Success....");
+		logger.info("Spring-Cloud-Boot Run Success");
 	}
 }
