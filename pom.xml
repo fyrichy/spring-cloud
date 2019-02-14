@@ -10,6 +10,7 @@
   	<module>spring-cloud-service</module>
   	<module>spring-cloud-consumer</module>
   	<module>spring-cloud-user-service</module>
+  	<module>spring-cloud-user-common</module>
   </modules>
   <dependencyManagement>
   	<dependencies>
