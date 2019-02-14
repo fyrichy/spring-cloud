@@ -5,7 +5,7 @@
     <artifactId>spring-cloud-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>spring-cloud-user-service</artifactId>
+  <artifactId>spring-cloud-user-consumer</artifactId>
   <dependencies>
   		<!-- springwebmvc -->
   		<dependency>
@@ -18,27 +18,5 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- 整合jdbc -->
-        <dependency>
-		    <groupId>org.springframework.boot</groupId>
-		    <artifactId>spring-boot-starter-jdbc</artifactId>
-		</dependency>
-		<!-- mysql数据库 -->
-		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		</dependency>
-		<!--mybatis -->
-		<dependency>
-		    <groupId>org.mybatis.spring.boot</groupId>
-		    <artifactId>mybatis-spring-boot-starter</artifactId>
-		    <version>1.3.2</version>
-		</dependency>
-		<!-- user-common用户提供公共东西 -->
-		<dependency>
-			<groupId>com.richy.springcloud</groupId>
-			<artifactId>spring-cloud-user-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
   </dependencies>
 </project>

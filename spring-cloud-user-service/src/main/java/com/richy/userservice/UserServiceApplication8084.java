@@ -17,6 +17,6 @@ public class UserServiceApplication8084 {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(UserServiceApplication8084.class, args);
-		logger.info("UserServiceApplication Run Sucessfully...");
+		logger.info("UserServiceApplication8084 Run Sucessfully...");
 	}
 }

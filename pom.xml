@@ -11,6 +11,7 @@
   	<module>spring-cloud-consumer</module>
   	<module>spring-cloud-user-service</module>
   	<module>spring-cloud-user-common</module>
+  	<module>spring-cloud-user-consumer</module>
   </modules>
   <dependencyManagement>
   	<dependencies>
