@@ -13,7 +13,7 @@ import com.richy.userservice.pojo.User;
 import com.richy.userservice.service.UserService;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = UserServiceApplication.class)
+@SpringBootTest(classes = UserServiceApplication8084.class)
 @WebAppConfiguration
 public class BaseJnuit {
 

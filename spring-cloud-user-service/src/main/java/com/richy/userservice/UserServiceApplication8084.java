@@ -11,12 +11,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @time：2019年2月14日下午2:08:49
  */
 @SpringBootApplication
-public class UserServiceApplication {
+public class UserServiceApplication8084 {
 
-	private final static Logger logger = LoggerFactory.getLogger(UserServiceApplication.class);
+	private final static Logger logger = LoggerFactory.getLogger(UserServiceApplication8084.class);
 	
 	public static void main(String[] args) {
-		SpringApplication.run(UserServiceApplication.class, args);
+		SpringApplication.run(UserServiceApplication8084.class, args);
 		logger.info("UserServiceApplication Run Sucessfully...");
 	}
 }
