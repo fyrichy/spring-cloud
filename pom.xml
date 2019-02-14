@@ -9,6 +9,7 @@
   	<module>spring-cloud-eureka-server</module>
   	<module>spring-cloud-service</module>
   	<module>spring-cloud-consumer</module>
+  	<module>spring-cloud-user-service</module>
   </modules>
   <dependencyManagement>
   	<dependencies>

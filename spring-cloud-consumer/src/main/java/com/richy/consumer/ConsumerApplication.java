@@ -15,6 +15,12 @@ public class ConsumerApplication {
 
 private final static Logger logger = LoggerFactory.getLogger(ConsumerApplication.class);
 	
+	/**
+	 * @descrp：restfuly请求模板类
+	 * @author：FyRichy
+	 * @time：2019年2月14日上午8:42:46
+	 * @return
+	 */
 	@Bean
 	public RestTemplate restTemplate() {
 	    return new RestTemplate();
